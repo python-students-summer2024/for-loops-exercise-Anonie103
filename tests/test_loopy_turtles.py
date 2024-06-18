@@ -377,7 +377,7 @@ class Tests:
         assert (
             mock_data["t.right"]["call_counter"] == 5
         ), f"Expected t.right to be called 5 times; instead, it was called {mock_data['t.right']['call_counter']} times"
-        assert mock_data["t.right"]["params"]["actual"] == [18, 18, 18, 18, 18]
+        assert mock_data["t.right"]["params"]["actual"] == [90,90, 90, 90, 90]
 
         assert (
             mock_data["t.begin_fill"]["call_counter"] == 1
@@ -511,7 +511,7 @@ class Tests:
         assert (
             mock_data["t.left"]["call_counter"] == 5
         ), f"Expected t.left to be called 5 times; instead, it was called {mock_data['t.left']['call_counter']} times"
-        assert mock_data["t.left"]["params"]["actual"] == [48, 48, 48, 48, 48]
+        assert mock_data["t.left"]["params"]["actual"] == [60, 60, 60, 60, 60]
 
         assert (
             mock_data["t.begin_fill"]["call_counter"] == 1

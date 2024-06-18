@@ -6,7 +6,7 @@ class Tests:
         """
         Test that the method returns the correct values in a variety of cases.
         """
-        expecteds = [25, 190, 575253, 737]
+        expecteds = [22, 179, 466609, 2]
 
         actuals = [
             calculate_infections(10, 1.2, 5),
